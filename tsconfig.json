@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "listEmittedFiles": true,
+        "outFile": "dist/index.js",
+        "sourceMap": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "module": "system",
+        "target": "es5",
+        "jsx": "react",
+        "strictNullChecks": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/",
+        "dist/",
+        "**/*.spec.ts"
+    ]
+}
