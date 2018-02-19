@@ -1,0 +1,25 @@
+{
+  "name": "blackhawk",
+  "version": "0.1.0",
+  "description": "2D game",
+  "main": "dist/index.js",
+  "dependencies": {
+    "babylonjs": "^3.2.0-alpha8",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.5.0",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "fix": "tslint --fix --project .",
+    "lint": "tslint --project .",
+    "test": "false",
+    "tsc": "tsc",
+    "webpack": "webpack"
+  },
+  "author": "jason.dusek@gmail.com",
+  "private": true,
+  "license": "ISC"
+}

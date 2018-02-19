@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <title>BabylonJS</title>
+    <script src="dist/bundle/app.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            window.game = new app.Game("main");
+            window.game.createScene();
+            window.game.doRender();
+        });
+    </script>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>BabylonJS</h1>
+    <canvas id="main"></canvas>
+</body>
+</html>

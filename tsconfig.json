@@ -2,20 +2,23 @@
     "compileOnSave": true,
     "compilerOptions": {
         "listEmittedFiles": true,
-        "outFile": "dist/index.js",
+        "outDir": "dist/js/",
         "sourceMap": true,
         "declaration": true,
         "noImplicitAny": true,
-        "module": "system",
+        "module": "commonjs",
         "target": "es5",
         "jsx": "react",
         "strictNullChecks": true,
         "lib": [
             "dom",
             "es5",
-            "es2015.promise"
+            "es2015"
         ]
     },
+    "files": [
+        "node_modules/babylonjs/babylon.d.ts"
+    ],
     "include": [
         "src/**/*"
     ],
